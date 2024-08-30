@@ -65,8 +65,8 @@ trait HasPriceable
         return PriceService::make(
             $this->price()->vatRate,
             $this->price()->currency,
-            $price->display_price,
-            ($price->display_price === $price->price_including_vat)
+            $price->getOriginal('display_price'),
+            ($price->getOriginal('display_price') === $price->price_including_vat)
         );
     }
 
