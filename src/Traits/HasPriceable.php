@@ -209,12 +209,8 @@ trait HasPriceable
         return $builder->currentlyActive();
     }
 
-    public function prices(PriceType $type = null)
+    public function prices(PriceType $type = null) : \Illuminate\Database\Eloquent\Relations\MorphMany
     {
-        // return $this->morphToMany(
-        //     config('priceable.models.price'),
-        //     'priceable'
-        // );
         return $this->morphMany(config('priceable.models.price'), 'priceable');
     }
 }
