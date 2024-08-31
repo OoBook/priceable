@@ -1,10 +1,10 @@
 <?php
 
-namespace Unusualify\Priceable\Http\Controllers;
+namespace OoBook\Priceable\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Unusualify\Priceable\Models\Currency;
+use OoBook\Priceable\Models\Currency;
 
 class SetCurrencyController extends Controller
 {

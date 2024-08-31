@@ -6,9 +6,9 @@ use Carbon\Carbon;
 use Tests\TestCase;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Artisan;
-use Unusualify\Priceable\Models\Price;
-use Unusualify\Priceable\Models\VatRate;
-use Unusualify\Priceable\Models\Currency;
+use OoBook\Priceable\Models\Price;
+use OoBook\Priceable\Models\VatRate;
+use OoBook\Priceable\Models\Currency;
 
 class PriceTest extends TestCase
 {

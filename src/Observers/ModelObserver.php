@@ -1,6 +1,6 @@
 <?php
 
-namespace Unusualify\Observers;
+namespace OoBook\Observers;
 
 class ModelObserver
 {

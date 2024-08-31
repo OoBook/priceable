@@ -1,11 +1,11 @@
 <?php
 
-namespace Unusualify\Priceable\Facades;
+namespace OoBook\Priceable\Facades;
 
 class PriceService extends \Illuminate\Support\Facades\Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Unusualify\Priceable\PriceService::class;
+        return \OoBook\Priceable\PriceService::class;
     }
 }

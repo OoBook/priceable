@@ -1,6 +1,6 @@
 <?php
 
-namespace Unusualify\Priceable\Models;
+namespace OoBook\Priceable\Models;
 
 use Marshmallow\Sluggable\HasSlug;
 use Marshmallow\Sluggable\SlugOptions;

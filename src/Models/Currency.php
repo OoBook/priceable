@@ -1,6 +1,6 @@
 <?php
 
-namespace Unusualify\Priceable\Models;
+namespace OoBook\Priceable\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;

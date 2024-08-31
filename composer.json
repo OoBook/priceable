@@ -1,14 +1,14 @@
 {
-    "name": "unusualify/priceable",
+    "name": "oobook/priceable",
     "type": "library",
     "license": "MIT",
     "description": "The price feature addible to the any system",
-    "keywords": ["unusualify", "priceable"],
-    "homepage": "https://github.com/unusualify/",
+    "keywords": ["laravel", "priceable"],
+    "homepage": "https://github.com/oobook/",
     "authors": [
         {
             "name": "Oğuzhan Bükçüoğlu",
-            "email": "oguzhan@unusualgrowth.com"
+            "email": "oguz.bukcuoglu@gmail.com"
         }
     ],
     "support": {
@@ -22,18 +22,19 @@
     },
     "autoload": {
         "psr-4": {
-            "Unusualify\\Priceable\\": "src"
+            "OoBook\\Priceable\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Unusualify\\Priceable\\": "src"
+            "OoBook\\Priceable\\": "src",
+            "OoBook\\Priceable\\Database\\": "database"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Unusualify\\Priceable\\LaravelServiceProvider"
+                "OoBook\\Priceable\\LaravelServiceProvider"
             ]
         }
     }

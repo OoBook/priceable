@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Schema;
-use Unusualify\Priceable\Models\Price;
+use OoBook\Priceable\Models\Price;
 use Illuminate\Database\Schema\Blueprint;
-use Unusualify\Priceable\Models\PriceType;
+use OoBook\Priceable\Models\PriceType;
 use Illuminate\Database\Migrations\Migration;
 
 return new class extends Migration

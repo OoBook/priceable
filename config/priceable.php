@@ -15,10 +15,10 @@ return [
     'on_multiple_prices' => 'lowest', // highest, lowest, eldest, newest
 
     'models' => [
-        'vat' => \Unusualify\Priceable\Models\VatRate::class,
-        'price' => \Unusualify\Priceable\Models\Price::class,
-        'currency' => \Unusualify\Priceable\Models\Currency::class,
-        'price_type' => \Unusualify\Priceable\Models\PriceType::class,
+        'vat' => \OoBook\Priceable\Models\VatRate::class,
+        'price' => \OoBook\Priceable\Models\Price::class,
+        'currency' => \OoBook\Priceable\Models\Currency::class,
+        'price_type' => \OoBook\Priceable\Models\PriceType::class,
     ],
 
     'tables' => [
@@ -35,6 +35,6 @@ return [
     ],
 
     'observers' => [
-        'price' => \Unusualify\Priceable\Observers\PriceableObserver::class,
+        'price' => \OoBook\Priceable\Observers\PriceableObserver::class,
     ],
 ];

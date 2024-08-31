@@ -1,6 +1,6 @@
 <?php
 
-namespace Unusualify\Priceable\Models;
+namespace OoBook\Priceable\Models;
 
 use Illuminate\Support\Str;
 
@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Marshmallow\HelperFunctions\Facades\Builder as BuilderFacade;
-use Unusualify\Priceable\Observers\PriceableObserver;
+use OoBook\Priceable\Observers\PriceableObserver;
 
 class Price extends Model
 {
@@ -53,7 +53,7 @@ class Price extends Model
 
     public static function bootObserver(): void
     {
-        \Unusualify\Observers\ModelObserver::observe(
+        \OoBook\Observers\ModelObserver::observe(
             get_class()
         );
     }
@@ -95,12 +95,12 @@ class Price extends Model
 
     protected function formatAmount($amount, $currency = null)
     {
-        return \Unusualify\Priceable\Facades\PriceService::formatAmount($amount, $currency);
+        return \OoBook\Priceable\Facades\PriceService::formatAmount($amount, $currency);
     }
 
     protected function amount($amount, $currency = null)
     {
-        return \Unusualify\Priceable\Facades\PriceService::amount($amount, $currency);
+        return \OoBook\Priceable\Facades\PriceService::amount($amount, $currency);
     }
 
     /**
