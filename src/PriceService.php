@@ -1,25 +1,25 @@
 <?php
 
-namespace OoBook\Priceable;
+namespace Oobook\Priceable;
 
 use Money\Money;
 use Money\Currency;
 use NumberFormatter;
 use Money\Currencies\ISOCurrencies;
 use Money\Formatter\IntlMoneyFormatter;
-use OoBook\Priceable\Models\VatRate;
-use OoBook\Priceable\Models\Currency as CurrencyModel;
+use Oobook\Priceable\Models\VatRate;
+use Oobook\Priceable\Models\Currency as CurrencyModel;
 
 class PriceService
 {
     /**
-     * @var \OoBook\Priceable\Models\VatRate
+     * @var \Oobook\Priceable\Models\VatRate
      *
      */
     public $vatRate;
 
     /**
-     * @var \OoBook\Priceable\Models\Currency
+     * @var \Oobook\Priceable\Models\Currency
      *
      */
     public $currency;

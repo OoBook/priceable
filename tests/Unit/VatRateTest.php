@@ -3,8 +3,8 @@
 namespace Tests\Unit;
 
 use Tests\TestCase;
-use OoBook\Priceable\Facades\Price;
-use OoBook\Priceable\Models\VatRate;
+use Oobook\Priceable\Facades\Price;
+use Oobook\Priceable\Models\VatRate;
 
 class VatRateTest extends TestCase
 {

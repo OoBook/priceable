@@ -1,10 +1,10 @@
 <?php
 
 use Faker\Generator as Faker;
-use OoBook\Priceable\Models\Price;
+use Oobook\Priceable\Models\Price;
 
 /**
- * factory(OoBook\Priceable\Models\Price::class, 10)->create();
+ * factory(Oobook\Priceable\Models\Price::class, 10)->create();
  */
 $factory->define(Price::class, function (Faker $faker) {
 	return [

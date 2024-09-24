@@ -22,19 +22,19 @@
     },
     "autoload": {
         "psr-4": {
-            "OoBook\\Priceable\\": "src"
+            "Oobook\\Priceable\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "OoBook\\Priceable\\": "src",
-            "OoBook\\Priceable\\Database\\": "database"
+            "Oobook\\Priceable\\": "src",
+            "Oobook\\Priceable\\Database\\": "database"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "OoBook\\Priceable\\LaravelServiceProvider"
+                "Oobook\\Priceable\\LaravelServiceProvider"
             ]
         }
     }

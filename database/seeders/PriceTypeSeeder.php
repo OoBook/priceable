@@ -1,6 +1,6 @@
 <?php
 
-namespace OoBook\Priceable\Database\Seeders;
+namespace Oobook\Priceable\Database\Seeders;
 
 use Carbon\Carbon;
 use Illuminate\Database\Seeder;

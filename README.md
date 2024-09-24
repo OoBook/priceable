@@ -20,7 +20,7 @@ composer require oobook/priceable
 #### Publish priceable config
 Create the priceable config file under config/ folder using **artisan**
 ```
-php artisan vendor:publish --provider="OoBook\Priceable\LaravelServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Oobook\Priceable\LaravelServiceProvider" --tag="config"
 ```
 
 #### Run the migrations for currency, price type, vat rate and prices
@@ -29,14 +29,14 @@ php artisan migrate
 ```
 
 #### Use the Priceable trait in your models:
-Include the OoBook\Priceable\Traits\HasPriceable trait in your model to access price-related methods:
+Include the Oobook\Priceable\Traits\HasPriceable trait in your model to access price-related methods:
 
 ```php
 <?php
 
 namespace App\Models;
 
-use OoBook\Priceable\Traits\HasPriceable;
+use Oobook\Priceable\Traits\HasPriceable;
 
 class MyProduct extends Model
 {

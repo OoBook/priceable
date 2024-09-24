@@ -1,12 +1,12 @@
 <?php
 
-namespace OoBook\Priceable\Traits;
+namespace Oobook\Priceable\Traits;
 
 use Illuminate\Support\Facades\Config;
-use OoBook\Priceable\Models\Price;
-use OoBook\Priceable\Models\PriceType;
+use Oobook\Priceable\Models\Price;
+use Oobook\Priceable\Models\PriceType;
 use Illuminate\Database\Eloquent\Collection;
-use OoBook\Priceable\Facades\PriceService;
+use Oobook\Priceable\Facades\PriceService;
 
 trait HasPriceable
 {

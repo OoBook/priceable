@@ -1,11 +1,11 @@
 <?php
 
-namespace OoBook\Priceable;
+namespace Oobook\Priceable;
 
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\ServiceProvider;
-use OoBook\Priceable\Models\Currency;
+use Oobook\Priceable\Models\Currency;
 
 class LaravelServiceProvider extends ServiceProvider
 {

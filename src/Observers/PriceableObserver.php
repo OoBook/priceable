@@ -1,8 +1,8 @@
 <?php
 
-namespace OoBook\Priceable\Observers;
+namespace Oobook\Priceable\Observers;
 
-use OoBook\Priceable\Models\Price;
+use Oobook\Priceable\Models\Price;
 
 class PriceableObserver
 {

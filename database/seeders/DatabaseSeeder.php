@@ -1,6 +1,6 @@
 <?php
 
-namespace OoBook\Priceable\Database\Seeders;
+namespace Oobook\Priceable\Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;

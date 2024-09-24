@@ -1,6 +1,6 @@
 <?php
 
-namespace OoBook\Observers;
+namespace Oobook\Observers;
 
 class ModelObserver
 {

@@ -3,7 +3,7 @@
 namespace Tests\Unit;
 
 use Tests\TestCase;
-use OoBook\Priceable\Facades\Price;
+use Oobook\Priceable\Facades\Price;
 
 class PriceableTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace OoBook\Priceable\Models;
+namespace Oobook\Priceable\Models;
 
 use Marshmallow\Sluggable\HasSlug;
 use Illuminate\Database\Eloquent\Model;

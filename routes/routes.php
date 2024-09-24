@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use OoBook\Priceable\Http\Controllers\SetCurrencyController;
+use Oobook\Priceable\Http\Controllers\SetCurrencyController;
 
 Route::middleware(['web'])
     ->get(
