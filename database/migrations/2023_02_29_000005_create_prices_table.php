@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create(config('priceable.tables.prices'), function (Blueprint $table) {
             $table->id();
-            $table->morphs('priceable');
+            $table->uuidMorphs('priceable');
 
             $table->unsignedBigInteger('price_type_id')->default(null)->nullable();
 
