@@ -3,7 +3,7 @@
 namespace Oobook\Priceable\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
+use Illuminate\Routing\Controller;
 use Oobook\Priceable\Models\Currency;
 
 class SetCurrencyController extends Controller
