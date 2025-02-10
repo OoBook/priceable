@@ -70,9 +70,9 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists(config('priceable.tables.vat_rates'));
-        Schema::dropIfExists(config('priceable.tables.currencies'));
-        Schema::dropIfExists(config('priceable.tables.price_types'));
         Schema::dropIfExists(config('priceable.tables.prices'));
+        Schema::dropIfExists(config('priceable.tables.price_types'));
+        Schema::dropIfExists(config('priceable.tables.currencies'));
+        Schema::dropIfExists(config('priceable.tables.vat_rates'));
     }
 };
